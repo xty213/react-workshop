@@ -1,9 +1,11 @@
 import React, {Component} from 'react'
 
+import ContentHeader from './content/ContentHeader'
+
 class Content extends Component {
   render(){
     return(<div>
-      and I'm your main content
+      <ContentHeader pageName='Woof!' greeting='Woof! Woof woof!' />
       </div>)
   }
 }
